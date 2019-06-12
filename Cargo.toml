@@ -3,7 +3,7 @@ name = "flac-sys"
 version = "0.1.0"
 authors = ["Austin Johnson <me@austinj.me>"]
 edition = "2018"
-license = "Xiph's BSD"
+license = "BSD-3-Clause-Attribution"
 description = "Bindings for FLAC 1.3.2"
 
 # bindgen --no-layout-tests  -o ./src/lib.rs /usr/include/FLAC/all.h --raw-line="#[link(name = \"flac\")] extern { }"
